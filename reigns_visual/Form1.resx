@@ -1,0 +1,945 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;txt_annee.Name" xml:space="preserve">
+    <value>txt_annee</value>
+  </data>
+  <data name="&gt;&gt;Txt_narration.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dgv_score.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="txt_eglise.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.15pt</value>
+  </data>
+  <data name="txt_argent.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;button_valid_nom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_leaderboard.Name" xml:space="preserve">
+    <value>button_leaderboard</value>
+  </data>
+  <data name="label_armee.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txt_pop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>444, 206</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txt_eglise.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="button_valid_nom.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.26415pt</value>
+  </data>
+  <data name="txt_armee.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Logo.Name" xml:space="preserve">
+    <value>Logo</value>
+  </data>
+  <data name="&gt;&gt;txt_argent.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dgv_score.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_annee.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label_eglise.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.18868pt</value>
+  </data>
+  <data name="button_quitter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>520, 437</value>
+  </data>
+  <data name="&gt;&gt;label_armee.Name" xml:space="preserve">
+    <value>label_armee</value>
+  </data>
+  <data name="button_jouer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 40.07547pt, style=Bold</value>
+  </data>
+  <data name="dgv_nom.HeaderText" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="label_argent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 20</value>
+  </data>
+  <data name="&gt;&gt;button_oui.Name" xml:space="preserve">
+    <value>button_oui</value>
+  </data>
+  <data name="txt_entree_nom.Multiline" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_menu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>608, 42</value>
+  </data>
+  <data name="button_quitter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 42</value>
+  </data>
+  <data name="button_leaderboard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 42</value>
+  </data>
+  <data name="button_non.Text" xml:space="preserve">
+    <value>NON</value>
+  </data>
+  <data name="&gt;&gt;button_rejouer.Name" xml:space="preserve">
+    <value>button_rejouer</value>
+  </data>
+  <data name="button_menu.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 21.73585pt, style=Bold</value>
+  </data>
+  <data name="txt_argent.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.15pt</value>
+  </data>
+  <data name="label_pop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 20</value>
+  </data>
+  <data name="txt_eglise.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 24</value>
+  </data>
+  <data name="&gt;&gt;txt_entree_nom.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="button_leaderboard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 437</value>
+  </data>
+  <data name="&gt;&gt;position.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_argent.Text" xml:space="preserve">
+    <value>Argent</value>
+  </data>
+  <data name="label_pop.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.18868pt</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorker1.Name" xml:space="preserve">
+    <value>backgroundWorker1</value>
+  </data>
+  <data name="&gt;&gt;dgv_leaderboard.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label_pop.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;button_valid_nom.Name" xml:space="preserve">
+    <value>button_valid_nom</value>
+  </data>
+  <data name="&gt;&gt;label_argent.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;button_quitter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorker2.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgv_leaderboard.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="&gt;&gt;button_jouer.Name" xml:space="preserve">
+    <value>button_jouer</value>
+  </data>
+  <data name="button_valid_nom.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="button_oui.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 48.22641pt</value>
+  </data>
+  <data name="&gt;&gt;button_retour.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_leaderboard.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label_argent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>688, 206</value>
+  </data>
+  <data name="txt_argent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>751, 203</value>
+  </data>
+  <data name="label_armee.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;button_oui.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label_annee.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;label_pop.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txt_pop.Multiline" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txt_annee.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;Txt_narration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_eglise.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_annee.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 19.69811pt</value>
+  </data>
+  <data name="button_retour.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="txt_pop.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dgv_leaderboard.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;button_non.Name" xml:space="preserve">
+    <value>button_non</value>
+  </data>
+  <data name="label_annee.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 20</value>
+  </data>
+  <data name="txt_argent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 24</value>
+  </data>
+  <data name="&gt;&gt;button_leaderboard.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txt_argent.Multiline" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;label_eglise.Name" xml:space="preserve">
+    <value>label_eglise</value>
+  </data>
+  <data name="button_jouer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>608, 81</value>
+  </data>
+  <data name="dgv_leaderboard.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;txt_eglise.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_entree_nom.MaxLength" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;dgv_score.Name" xml:space="preserve">
+    <value>dgv_score</value>
+  </data>
+  <data name="&gt;&gt;button_valid_nom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txt_entree_nom.Name" xml:space="preserve">
+    <value>txt_entree_nom</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorker1.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_armee.ScrollBars" type="System.Windows.Forms.RichTextBoxScrollBars, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="label_eglise.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txt_argent.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="button_rejouer.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;label_pop.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;button_valid_nom.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txt_armee.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="txt_eglise.Multiline" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="button_menu.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="txt_pop.ScrollBars" type="System.Windows.Forms.RichTextBoxScrollBars, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;button_rejouer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_eglise.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;button_jouer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_oui.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 350</value>
+  </data>
+  <data name="button_oui.Text" xml:space="preserve">
+    <value>OUI</value>
+  </data>
+  <data name="&gt;&gt;button_menu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_start.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 425</value>
+  </data>
+  <data name="&gt;&gt;Txt_narration.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Txt_narration.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label_pop.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txt_armee.Name" xml:space="preserve">
+    <value>txt_armee</value>
+  </data>
+  <data name="label_armee.Location" type="System.Drawing.Point, System.Drawing">
+    <value>529, 206</value>
+  </data>
+  <data name="dgv_nom.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;txt_entree_nom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txt_pop.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label_eglise.Location" type="System.Drawing.Point, System.Drawing">
+    <value>221, 206</value>
+  </data>
+  <data name="txt_pop.Text" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;txt_armee.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_eglise.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;txt_annee.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;button_non.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button_rejouer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 350</value>
+  </data>
+  <data name="button_quitter.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="txt_eglise.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 206</value>
+  </data>
+  <data name="&gt;&gt;button_menu.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;button_leaderboard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="txt_argent.Text" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="dgv_nom.Width" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="label_armee.Text" xml:space="preserve">
+    <value>Armée</value>
+  </data>
+  <data name="&gt;&gt;button_retour.Name" xml:space="preserve">
+    <value>button_retour</value>
+  </data>
+  <data name="&gt;&gt;Logo.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="button_valid_nom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 31</value>
+  </data>
+  <data name="Txt_narration.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txt_eglise.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button_menu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 437</value>
+  </data>
+  <data name="button_jouer.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="label_argent.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="button_retour.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.18868pt, style=Bold</value>
+  </data>
+  <data name="button_quitter.Text" xml:space="preserve">
+    <value>Quitter</value>
+  </data>
+  <data name="&gt;&gt;txt_argent.Name" xml:space="preserve">
+    <value>txt_argent</value>
+  </data>
+  <data name="Txt_narration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>608, 95</value>
+  </data>
+  <data name="&gt;&gt;txt_annee.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button_non.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 129</value>
+  </data>
+  <data name="button_retour.Location" type="System.Drawing.Point, System.Drawing">
+    <value>409, 437</value>
+  </data>
+  <data name="&gt;&gt;button_retour.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txt_annee.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 26</value>
+  </data>
+  <data name="txt_entree_nom.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;button_menu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txt_entree_nom.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;label_armee.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txt_eglise.Text" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="button_non.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="txt_argent.ScrollBars" type="System.Windows.Forms.RichTextBoxScrollBars, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;button_jouer.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="button_valid_nom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>370, 400</value>
+  </data>
+  <data name="&gt;&gt;dgv_nom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_armee.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 24</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;label_argent.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button_leaderboard.Text" xml:space="preserve">
+    <value>Leaderboard</value>
+  </data>
+  <data name="txt_argent.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="&gt;&gt;button_menu.Name" xml:space="preserve">
+    <value>button_menu</value>
+  </data>
+  <data name="&gt;&gt;label_annee.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Logo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 0</value>
+  </data>
+  <data name="&gt;&gt;txt_pop.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;txt_armee.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;dgv_leaderboard.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="dgv_leaderboard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>383, 419</value>
+  </data>
+  <data name="Txt_narration.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button_retour.Text" xml:space="preserve">
+    <value>Retour</value>
+  </data>
+  <data name="&gt;&gt;button_start.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txt_armee.Text" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="txt_pop.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="button_leaderboard.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;label_armee.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="button_rejouer.Text" xml:space="preserve">
+    <value>REJOUER</value>
+  </data>
+  <data name="&gt;&gt;button_retour.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txt_eglise.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txt_pop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_argent.Name" xml:space="preserve">
+    <value>label_argent</value>
+  </data>
+  <data name="txt_armee.Multiline" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txt_armee.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;txt_pop.Name" xml:space="preserve">
+    <value>txt_pop</value>
+  </data>
+  <data name="&gt;&gt;txt_armee.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button_oui.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_leaderboard.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 21.73585pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;button_quitter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Logo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_non.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 48.22641pt</value>
+  </data>
+  <data name="button_valid_nom.Text" xml:space="preserve">
+    <value>Entrer</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Logo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label_argent.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;button_start.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_annee.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="button_start.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="dgv_leaderboard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>330, 0</value>
+  </data>
+  <data name="&gt;&gt;label_pop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_non.Location" type="System.Drawing.Point, System.Drawing">
+    <value>520, 350</value>
+  </data>
+  <data name="&gt;&gt;txt_entree_nom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_oui.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 129</value>
+  </data>
+  <data name="&gt;&gt;label_eglise.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;label_armee.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_rejouer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>608, 81</value>
+  </data>
+  <data name="&gt;&gt;label_annee.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_entree_nom.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="txt_argent.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;button_jouer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txt_annee.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorker2.Name" xml:space="preserve">
+    <value>backgroundWorker2</value>
+  </data>
+  <data name="&gt;&gt;label_annee.Name" xml:space="preserve">
+    <value>label_annee</value>
+  </data>
+  <data name="txt_armee.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.15pt</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="label_argent.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.18868pt</value>
+  </data>
+  <data name="label_annee.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.18868pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txt_eglise.Name" xml:space="preserve">
+    <value>txt_eglise</value>
+  </data>
+  <data name="label_eglise.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 20</value>
+  </data>
+  <data name="button_retour.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 27</value>
+  </data>
+  <data name="&gt;&gt;button_quitter.Name" xml:space="preserve">
+    <value>button_quitter</value>
+  </data>
+  <data name="txt_entree_nom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 43</value>
+  </data>
+  <data name="dgv_leaderboard.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;dgv_nom.Name" xml:space="preserve">
+    <value>dgv_nom</value>
+  </data>
+  <data name="button_jouer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 350</value>
+  </data>
+  <data name="txt_entree_nom.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 21.0566pt</value>
+  </data>
+  <data name="&gt;&gt;label_eglise.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txt_argent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgv_leaderboard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_start.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="label_eglise.Text" xml:space="preserve">
+    <value>Église</value>
+  </data>
+  <data name="label_annee.Text" xml:space="preserve">
+    <value>Années au pouvoir</value>
+  </data>
+  <data name="position.Width" type="System.Int32, mscorlib">
+    <value>99</value>
+  </data>
+  <data name="label_annee.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="dgv_score.Width" type="System.Int32, mscorlib">
+    <value>147</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;button_oui.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1012, 491</value>
+  </data>
+  <data name="txt_pop.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="&gt;&gt;position.Name" xml:space="preserve">
+    <value>position</value>
+  </data>
+  <data name="button_quitter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 21.73585pt, style=Bold</value>
+  </data>
+  <data name="position.HeaderText" xml:space="preserve">
+    <value>position</value>
+  </data>
+  <data name="&gt;&gt;Txt_narration.Name" xml:space="preserve">
+    <value>Txt_narration</value>
+  </data>
+  <data name="label_annee.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;button_non.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_menu.Text" xml:space="preserve">
+    <value>MENU PRINCIPAL</value>
+  </data>
+  <data name="&gt;&gt;button_quitter.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txt_annee.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 33</value>
+  </data>
+  <data name="&gt;&gt;label_pop.Name" xml:space="preserve">
+    <value>label_pop</value>
+  </data>
+  <data name="label_pop.Text" xml:space="preserve">
+    <value>Population</value>
+  </data>
+  <data name="button_jouer.Text" xml:space="preserve">
+    <value>JOUER</value>
+  </data>
+  <data name="button_oui.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="txt_entree_nom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>330, 350</value>
+  </data>
+  <data name="label_pop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>354, 206</value>
+  </data>
+  <data name="button_rejouer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 40.07547pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;button_rejouer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Logo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>608, 179</value>
+  </data>
+  <data name="&gt;&gt;button_rejouer.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;dgv_leaderboard.Name" xml:space="preserve">
+    <value>dgv_leaderboard</value>
+  </data>
+  <data name="Logo.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="txt_pop.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.15pt</value>
+  </data>
+  <data name="txt_eglise.ScrollBars" type="System.Windows.Forms.RichTextBoxScrollBars, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;button_non.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="txt_armee.Location" type="System.Drawing.Point, System.Drawing">
+    <value>591, 203</value>
+  </data>
+  <data name="txt_pop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 24</value>
+  </data>
+  <data name="label_armee.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.18868pt</value>
+  </data>
+  <data name="&gt;&gt;label_argent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgv_score.HeaderText" xml:space="preserve">
+    <value>Meilleur score</value>
+  </data>
+  <data name="label_eglise.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="Txt_narration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 242</value>
+  </data>
+  <data name="&gt;&gt;label_annee.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="label_armee.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 20</value>
+  </data>
+  <data name="&gt;&gt;button_start.Name" xml:space="preserve">
+    <value>button_start</value>
+  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>fr</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="backgroundWorker2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>192, 17</value>
+  </metadata>
+  <metadata name="position.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="backgroundWorker1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="dgv_nom.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgv_score.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>
